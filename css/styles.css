@@ -1,0 +1,75 @@
+body{
+    background-color: #185045;
+    font-family: "Open Sans", Helvetiva, Arial, sans-serif;
+}
+
+.header{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px dotted #152b26;
+}
+
+.h_link{
+    margin: 0 5px;
+}
+
+.link{
+    color: #338f7d;
+    transition: color .2s, font-size .5s;
+}
+
+.link:visited{
+    color: #031a16;
+}
+
+.link:hover{
+    color: #338f52;
+    font-size: 20px;
+}
+
+.main{
+    margin: 0 auto;
+    width: 1000px; 
+}
+
+.woohoo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    color: #2d8a78;
+    text-align: center;
+}
+
+.imgwrap{
+    width: 30vw;
+    padding: 30px;
+}
+
+.aye{
+    padding: 30px;
+}
+
+.sub{
+    color:#2d8a78;
+    margin-top: 25px;
+}
+
+.tit{
+    font-family: "Merriweather", Times, Georgia, serif;
+}
+
+.footer{
+    text-align: center;
+    padding: 10px;
+    border-top: 2px dotted #152b26;
+    color: #2d8a78;
+}
+
+.material-icons{
+    position: relative;
+    color:#2d8a78;
+    top: 3px;
+}
